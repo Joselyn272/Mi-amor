@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #ffe6ee, #fff5f8);
+    color: #4a2633;
+    min-height: 100vh;
+}
+
+header {
+    background: #c2185b;
+    padding: 25px;
+    text-align: center;
+    color: white;
+}
+
+header h1 {
+    margin-bottom: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    background: #e91e63;
+    padding: 10px 18px;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    background: white;
+    color: #c2185b;
+}
+
+.inicio {
+    max-width: 1000px;
+    margin: auto;
+    padding: 60px 20px;
+}
+
+.bienvenida {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    background: white;
+    padding: 50px;
+    border-radius: 25px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+.contenido {
+    flex: 1;
+}
+
+.contenido h2 {
+    font-size: 40px;
+    color: #c2185b;
+    margin-bottom: 20px;
+}
+
+.contenido p {
+    font-size: 18px;
+    line-height: 1.7;
+    margin-bottom: 15px;
+}
+
+.corazon {
+    font-size: 150px;
+    animation: latido 1.5s infinite;
+}
+
+@keyframes latido {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.15);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+.boton {
+    display: inline-block;
+    margin-top: 20px;
+    background: #c2185b;
+    color: white;
+    text-decoration: none;
+    padding: 14px 25px;
+    border-radius: 30px;
+    transition: 0.3s;
+}
+
+.boton:hover {
+    background: #880e4f;
+    transform: scale(1.05);
+}
+
+.frase {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.frase h2 {
+    color: #c2185b;
+    font-style: italic;
+}
+
+.frase p {
+    margin-top: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #c2185b;
+    color: white;
+}
+
+@media (max-width: 700px) {
+
+    .bienvenida {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .corazon {
+        font-size: 100px;
+    }
+}

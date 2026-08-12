@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #fff0f5;
+    color: #4a2633;
+}
+
+header {
+    background: #ad1457;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+header h1 {
+    margin-bottom: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 18px;
+    background: #d81b60;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    background: white;
+    color: #ad1457;
+}
+
+main {
+    max-width: 1100px;
+    margin: auto;
+    padding: 50px 20px;
+}
+
+.introduccion {
+    background: white;
+    padding: 40px;
+    text-align: center;
+    border-radius: 25px;
+    margin-bottom: 40px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+.introduccion h2 {
+    color: #ad1457;
+    margin-bottom: 20px;
+    font-size: 32px;
+}
+
+.introduccion p {
+    line-height: 1.7;
+    font-size: 18px;
+}
+
+.momentos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+}
+
+.tarjeta {
+    background: white;
+    padding: 30px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 7px 18px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+
+.tarjeta:hover {
+    transform: translateY(-8px);
+}
+
+.tarjeta span {
+    font-size: 45px;
+}
+
+.tarjeta h3 {
+    color: #c2185b;
+    margin: 15px 0;
+}
+
+.tarjeta p {
+    line-height: 1.6;
+}
+
+.boton {
+    display: block;
+    width: fit-content;
+    margin: 40px auto 0;
+    padding: 14px 25px;
+    background: #c2185b;
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+}
+
+.boton:hover {
+    background: #880e4f;
+}
+
+footer {
+    background: #ad1457;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+@media (max-width: 700px) {
+
+    .momentos {
+        grid-template-columns: 1fr;
+    }
+}

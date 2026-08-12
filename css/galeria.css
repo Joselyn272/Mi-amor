@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #fff5f8;
+    color: #4a2633;
+}
+
+header {
+    background: #c2185b;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+header h1 {
+    margin-bottom: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 18px;
+    background: #e91e63;
+    border-radius: 20px;
+}
+
+nav a:hover {
+    background: white;
+    color: #c2185b;
+}
+
+main {
+    max-width: 1100px;
+    margin: auto;
+    padding: 50px 20px;
+}
+
+main > h2 {
+    text-align: center;
+    color: #c2185b;
+    margin-bottom: 40px;
+    font-size: 30px;
+}
+
+.galeria {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+
+.foto {
+    background: white;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+    transition: 0.3s;
+}
+
+.foto:hover {
+    transform: scale(1.02);
+}
+
+.foto img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    display: block;
+}
+
+.descripcion {
+    padding: 20px;
+    text-align: center;
+}
+
+.descripcion h3 {
+    color: #c2185b;
+    margin-bottom: 10px;
+}
+
+.descripcion p {
+    line-height: 1.5;
+}
+
+.boton {
+    display: block;
+    width: fit-content;
+    margin: 40px auto 0;
+    background: #c2185b;
+    color: white;
+    text-decoration: none;
+    padding: 14px 25px;
+    border-radius: 25px;
+}
+
+.boton:hover {
+    background: #880e4f;
+}
+
+footer {
+    margin-top: 50px;
+    background: #c2185b;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+@media (max-width: 700px) {
+
+    .galeria {
+        grid-template-columns: 1fr;
+    }
+}
