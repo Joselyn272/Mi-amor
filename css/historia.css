@@ -32,7 +32,7 @@ nav {
 nav a {
     color: white;
     text-decoration: none;
-    background: #e91e63;
+    background: hsl(236, 26%, 57%);#855e96;
     padding: 10px 18px;
     border-radius: 20px;
     transition: 0.3s;
@@ -98,7 +98,7 @@ nav a:hover {
 .boton {
     display: inline-block;
     margin-top: 20px;
-    background: #c2185b;
+    background: hsl(236, 44%, 36%);
     color: white;
     text-decoration: none;
     padding: 14px 25px;
@@ -128,7 +128,7 @@ nav a:hover {
 footer {
     text-align: center;
     padding: 20px;
-    background: #c2185b;
+    background:hsl(236, 26%, 57%);
     color: white;
 }
 

@@ -3,112 +3,299 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>Nuestra historia ❤️</title>
-
+    <title>Nuestra historia </title>
     <link rel="stylesheet" href="css/historia.css">
+    <style>
+        /* TODO EL FONDO EN VIOLETA-AZUL */
+        body {
+            background: linear-gradient(180deg, #d8c8ff, #b8d0ff);
+            color: #2b0050;
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        /* TAMAÑO DE LETRAS GRANDE */
+        * {
+            font-size: 19px;
+            line-height: 1.7;
+        }
+        h1 {
+            font-size: 36px;
+            text-align: center;
+            color: #ffffff;
+            margin: 0;
+        }
+        h2 {
+            font-size: 28px;
+            text-align: center;
+            color: #4b0082;
+        }
+        h3 {
+            font-size: 24px;
+            color: #2f4fcc;
+        }
+        p {
+            font-size: 19px;
+            color: #332288;
+        }
+        /* ENCABEZADO ARRIBA */
+        header {
+            background: linear-gradient(90deg, #6a0dad, #4169e1);
+            padding: 25px;
+            border-radius: 0 0 24px 24px;
+            box-shadow: 0 6px 18px rgba(106,13,173,0.4);
+        }
+        nav {
+            text-align: center;
+            margin-top: 15px;
+        }
+        nav a {
+            font-size: 20px;
+            margin: 0 10px;
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+        nav a:hover {
+            color: #e6ccff;
+        }
+        /* FOTOS CON MARCO VIOLETA-AZUL */
+        img {
+            max-width: 60%;
+            height: auto;
+            display: block;
+            margin: 18px auto;
+            border-radius: 16px;
+            border: 5px solid #5b4bff;
+            box-shadow: 0 8px 20px rgba(90,60,220,0.4);
+        }
+        /* BOTÓN */
+        .boton {
+            display: block;
+            width: fit-content;
+            margin: 35px auto;
+            padding: 16px 30px;
+            background: linear-gradient(90deg, #7b2ffd, #2f69ee);
+            color: white;
+            text-align: center;
+            border-radius: 14px;
+            text-decoration: none;
+            font-size: 21px;
+            font-weight: bold;
+            box-shadow: 0 6px 18px rgba(80,40,220,0.4);
+        }
+        .boton:hover {
+            transform: scale(1.05);
+        }
+        /* TARJETAS DE TEXTO */
+        .tarjeta {
+            margin: 30px auto;
+            padding: 25px;
+            max-width: 800px;
+            background: linear-gradient(135deg, #e6ddff, #dde6ff);
+            border-radius: 18px;
+            border: 4px solid #7b68ee;
+            box-shadow: 0 8px 20px rgba(75,0,130,0.25);
+        }
+        .introduccion {
+            text-align: center;
+            max-width: 800px;
+            margin: 25px auto;
+            padding: 25px;
+            background: linear-gradient(135deg, #f0ebff, #e0e9ff);
+            border-radius: 18px;
+            border: 4px solid #4169e1;
+            box-shadow: 0 6px 16px rgba(65,105,225,0.25);
+        }
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            padding: 20px;
+            background: linear-gradient(90deg, #4169e1, #6a0dad);
+            color: white;
+            font-size: 17px;
+            border-radius: 24px 24px 0 0;
+        }
+    </style>
 </head>
-
 <body>
 
 <header>
-
-    <h1>💕 Nuestra Historia 💕</h1>
-
+    <h1>💕 Nuestra Historia 💕 </h1>
     <nav>
-        <a href="index.html">Inicio</a>
-        <a href="historia.html">Nuestra historia</a>
-        <a href="galeria.html">Galería</a>
-        <a href="videos.html">Videos</a>
+        <a href="index.html"> Inicio</a>
+        <a href="historia.html"> Nuestra historia</a>
+        <a href="galeria.html"> Galería</a>
+        <a href="videos.html"> Videos</a>
     </nav>
-
 </header>
 
-
 <main>
-
     <section class="introduccion">
-
-        <h2>¿Cómo comenzó todo? ❤️</h2>
-
+        <h2>¿Recuerdas como comenzó todo? </h2>
         <p>
-            Aquí puedes escribir cómo se conocieron,
-            cuándo comenzó su relación y los momentos
-            más importantes que han vivido juntos.
+            Pues como olvidar el día que nos conocimos jaja fue algo inesperado. 
+            Te conocí un día de presentación, te juro que ese día no iba a ir a bailar 
+            sin pensarlo comenzamos a dialogar bueno tu jeje nos contabas lo que 
+            te habia pasado con M, y yo tambien hable de lo que me pasó
+            JAJAJ aun recuerdo que me diste cogiendo una gaseosa jeje y para que favor si se me fue 
+            en el taxi jaja
+
+            Puedes creer que aun no me lo creo, cuando me contaste como te enamoraste de mi jeje, y tambien 
+            esperar el dia de ensayos para volvernos a ver jaja te cargue jjj algo muy loco amor apenas te habia conocido la 
+            anterior semana y ya te cargue jeje ayy que locura no lo crees??
         </p>
-
+        <img src="css/h.jpeg" alt="Nuestra foto">
     </section>
-
 
     <section class="momentos">
+        <div class="tarjeta">
+            <h3>Nuestra primera salida como amigos </h3>
+            <p>
+                Se que suena loco que aun recuerde esto jeje 
+                El día que nos pusimos de acuerdo para ir al cine jajsjs, 
+                bueno yo te dije ya que seextrenaa la pelicula de 
+                Stich jjjj y bueno te dije a ti si podiamos ir jeje y justo ese dia tenian presentación y tu 
+                te regresaste ese dia rapido a la casita, te bañaste, te cambiaste y veniste al cine para verla.
+                no te puedo negar que ese día estaba nerviosa jeje. 
+                Sé que aún no éramos nada, apenas nos estábamos conociendo, 
+                pero verte agarrar mi manito era ayyy y verte tomar fotos no sé cómo explicarte jjj.
+                Era algo nuevo para mi ya que la unica te tomaba fotos era yo jeje y ver que tu pareja 
+                lo haga y mas contigo me sorprendi la verdad ya que como te dije no eramos nada pero lo hiciste
+            </p>
+            <img src="css/a.jpeg" alt="Recuerdo">
+             </div>
+
+              <div class="tarjeta">
+            <h3>Nuestra primera salida como novios </h3>
+            <p>
+                Nose si aun recueras la primera cita qu tuvimos que fue ir a las Cascadas de Tilipulo
+                Aunque no lo creas si me di cuenta que me estabas grabando, pero no queria arruinar el momento
+                ya que por primera me sentia bien.
+            </p>
+            <img src="css/s.jpeg" alt="Recuerdo">
+             </div>
+
+             
+        <div class="tarjeta">
+            <h3>Uno de los recuerdos inolvidables que tengo </h3>
+            <p>
+                 Un recuerdo inolvidable será cuando me trajiste al Patrón el día de mi cumpleaños,
+                 fue algo muy bonito, nadie había hecho tanto como tú lo hiciste, 
+                 fue el mejor cumpleaños que tuve.Aunque no te puedo negar si me enoje al principio
+                 hasta queria llorar ya que fue algo muy inesperado, como te dije cuando me conociste, no me gusta 
+                 que gasten en mi, porque me hace sentir apenada. Pero no es el único recuerdo mi amor que tengo, 
+                 son varios ya que cada que salimos creamos nuevos recuerdos, que espero que perduren 
+                 por muchos años, porque si quiero quedarme contigo espero que tú igual pienses lo mismo bebé.
+            </p>
+            <img src="css/cumple.jpeg" alt="Cumpleaños">
+        </div>
+    
 
         <div class="tarjeta">
-
-            <span>❤️</span>
-
-            <h3>El día que nos conocimos</h3>
-
+            <h3>Mi primer Año Nuevo a tu lado</h3>
             <p>
-                Escribe aquí cómo fue ese día,
-                dónde se conocieron y qué recuerdas.
+                No puedo creer que ya en poco tiempo  vamos a ir por nuestros 2 año nuevo jeje,
+                bueno el pPrimera Año que pase contigo ir a ver las viudas, ir a ver la ciudad desde las letras,
+                que me diste un gran abrazo ese dia
+                FUE EL MEJOR ULTIMO DIA DEL AÑO ya que aunque no lo ibamos a psar juntos, lo iva a inicar con el niño
+                que  me dio luz en mi oscuridad, pero fue al hermoso empezar el Año nuevo contigo aunque por videollamada
+                Apesar de la pelea del anterior dia no impidio que intentemos nuevamente y te lo agradezco bastante 
             </p>
-
+            <img src="css/mor.jpeg" alt="Cumpleaños">
         </div>
 
+         <div class="tarjeta">
+            <h3>Mi primer Año Nuevo a tu lado</h3>
+            <p>
+                Uno de los recuerdos será el día que nos pusimos de acuerdo para ir al cine jajsjs,
+            no te puedo negar que ese día estaba nerviosa jeje. Sé que aún no éramos nada,
+            apenas nos estábamos conociendo, pero verte agarrar mi manito era ayyy no sé cómo
+            explicarte jjj.
+        </p>
+            <img src="css/mor.jpeg" alt="Cumpleaños">
+        </div>
+
+             <div class="tarjeta">
+        <h3>Un regalo inesperado</h3>
+        <p>
+           Un regalo que me diste fue este gran ramo de girasoles eternas, no me lo esperaba mi amor serte sincera
+           como tu me dijiste que era un encarg, y resulto ser este gran regalo
+           Me gusto muchisimoo, jeje como olvidar los nervios que tenia al llevar ami casita, como ien sabias mis
+           papás aun no sabiande lo nuestro pero aun asi me gusto demasiado 
+        </p>
+
+        <video controls>
+            <source src="css/flo.mp4" type="video/mp4">
+        
+        </video>
+    </div>
+        
+    
+</section>  <section class="momentos">
+        
 
         <div class="tarjeta">
+            <h3>Lo que siento por ti </h3>
+            <p> 
+                Nunca pensé enamorarme así de ti amorcito, fue tan repentino. 
+                Sin pensar que escondimos nuestro noviazgo porque yo te lo pedí, 
+                pero un día sin querer todos se enteraron que estábamos juntos. 
+                Te amo, no sé cómo expresarte mi niño el gran amor que te tengo, 
+                perdóname por mis celos jaja, mis enojos; es que no me gusta que 
+                menciones a otra mujer ñoño, me da unos celos.
+                
+                Y no te preocupes amorcitoshi comentas en tus tik toks a otras chicas que estan bonitas,
+                no te juzgo mi amor ultimamente  no estoy del todo bonita,
+                pero al ver a las chicas si me pongo a comparar, poque por eso esque tu les coentas eso,
+                se supone que yo debo ser la envidia de otras chicas al tenerte a mi lado y no ser la chica a la que 
+                dicen el novio de ella me comento que soy bonita, no te voy a reclamar mi amorcito mio, 
+                Intentare controlar mis celos, aunque si me costara amor no te miento, si antes tu les ponias un 
+                limite a las chicas que hacian eso, ahora les dejas hacerlo, se que debo
+                aceptar que debes tener amigas y eso bebe... confio en ti 
 
-            <span>💕</span>
+                Eres alguen muy especial para mi bebe, ahi noc como demostrarte el gran amor que te tengo,
+                decirte que te amo demasiado y me doleria muchisimo que tus bellos ojitos ya no me miren a mi.
+                Como te eh di ho en aquellas despedidas yo quiero, quisiera un futuro a tu lado, se que aun eestamos 
+                jovenes pero ya no somos unos niños, para saber lo que queremos. Te eh demostrado de todas formas
+                el amor que te tengo, se que aun me falta hacer cosas contigo y quisiera cumplirlas...
 
-            <h3>Nuestro primer momento especial</h3>
+                Aunque no me creas mi amorcito, mi mami pregunta aveces por ti, de donde estas que estas haciendo
+                Mi amor raro que mi mami pregunte eso sientete bien amorcitojaja te ganaste el cariño de la 
+                se puede decir la dura de la familia jsjs te ganaste su cariño 
 
-            <p>
-                Puedes contar aquí algún momento
-                que haya sido importante para los dos.
-            </p>
-
+                Mi niño tú tranquilo como te dije, tranquilito, 
+                yo te voy a esperar hasta que acabes de trabajar. 
+                No te sientas avergonzado del trabajo que haces, si estás sucio 
+                con las manos manchadas yo te voy a abrazar y te besaré porque 
+                me importas bastante. No me importa cómo estés, yo siempre estaré 
+                contigo apoyándote, porque sé que de eso se trata una relación: 
+                estar siempre al lado de la persona que ames a pesar de todo.
+                No creas que estás solo, tú mira atrás y aquí estaré, yo estaré en 
+                todo tu proceso amorcito. Quiero estar en todos tus logros, como te 
+                dije amor me siento muy orgullosa de ti. Sé que a veces tenemos nuestros 
+                enojos, pero no quiero que nos vayamos a dormir enojados, no me gusta eso. 
+                Quiero que hablemos, solucionemos, e ir a dormir felices y tranquilos.
+                Me siento muy orgullosa de tenerte a mi lado ya que tú estuviste conmigo 
+                en las malas y buenas, incluso cuando más te necesitaba. Gracias por 
+                aceptarme como soy amorcito. Espero que sí podamos ir a Baños y poder 
+                ver cómo es en la noche, y más va a ser maravilloso ya que te tengo a ti 
+                a mi lado.
+            
+                Nunca te vayas amorcito de mi vidaaaa 
+           
+            <img src="css/0.jpeg" alt="Nosotros">
         </div>
-
-
-        <div class="tarjeta">
-
-            <span>🥰</span>
-
-            <h3>Un recuerdo inolvidable</h3>
-
-            <p>
-                Escribe aquí ese recuerdo que siempre
-                te hace sonreír.
-            </p>
-
-        </div>
-
-
-        <div class="tarjeta">
-
-            <span>💖</span>
-
-            <h3>Lo que siento por ti</h3>
-
-            <p>
-                Puedes escribir aquí una pequeña carta
-                o unas palabras para él.
-            </p>
-
-        </div>
-
     </section>
 
-
     <a href="galeria.html" class="boton">
-        Ver nuestros recuerdos 📸
+        APLASTA AQUÍ PARA VER NUESTROS RECUERDOS MI AMOR
     </a>
-
 </main>
 
-
 <footer>
-    <p>❤️ Nuestra historia continúa...</p>
+    Hecho con amor para ti mi niño 
+    TE AMO MUCHO
 </footer>
 
 </body>

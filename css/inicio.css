@@ -11,7 +11,7 @@ body {
 }
 
 header {
-    background: #ad1457;
+    background: hsl(236, 26%, 57%);
     color: white;
     text-align: center;
     padding: 25px;
@@ -32,14 +32,14 @@ nav a {
     text-decoration: none;
     color: white;
     padding: 10px 18px;
-    background: #d81b60;
+    background: #56567e;
     border-radius: 20px;
     transition: 0.3s;
 }
 
 nav a:hover {
     background: white;
-    color: #ad1457;
+    color: #363032;
 }
 
 main {
@@ -58,7 +58,7 @@ main {
 }
 
 .introduccion h2 {
-    color: #ad1457;
+    color: #432d37;
     margin-bottom: 20px;
     font-size: 32px;
 }
@@ -75,7 +75,7 @@ main {
 }
 
 .tarjeta {
-    background: white;
+    background: rgb(131, 99, 99);
     padding: 30px;
     border-radius: 20px;
     text-align: center;
@@ -105,18 +105,18 @@ main {
     width: fit-content;
     margin: 40px auto 0;
     padding: 14px 25px;
-    background: #c2185b;
+    background: hsl(236, 26%, 57%);
     color: white;
     text-decoration: none;
     border-radius: 25px;
 }
 
 .boton:hover {
-    background: #880e4f;
+    background: #ac688c;
 }
 
 footer {
-    background: #ad1457;
+    background:hsl(236, 26%, 57%);
     color: white;
     text-align: center;
     padding: 20px;

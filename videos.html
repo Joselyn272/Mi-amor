@@ -1,92 +1,146 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
-
     <meta charset="UTF-8">
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>Nuestros Videos ❤️</title>
-
-    <link rel="stylesheet" href="css/videos.css">
-
+    <title>Nuestros Videos 💜💙</title>
+    <style>
+        body {
+            background: linear-gradient(180deg, #d8c8ff, #b8d0ff);
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        h1 {
+            font-size: 36px;
+            text-align: center;
+            color: white;
+            margin: 0;
+            padding: 20px;
+        }
+        h2 {
+            font-size: 28px;
+            text-align: center;
+            color: #4b0082;
+        }
+        p {
+            font-size: 20px;
+            color: #332288;
+            text-align: center;
+        }
+        header {
+            background: linear-gradient(90deg, #6a0dad, #4169e1);
+            padding: 10px;
+        }
+        nav {
+            text-align: center;
+            margin: 10px 0 20px;
+        }
+        nav a {
+            font-size: 19px;
+            margin: 0 8px;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .contenido {
+            max-width: 850px;
+            margin: 0 auto;
+            padding: 20px;
+            background: linear-gradient(135deg, #e6ddff, #dde6ff);
+            border-radius: 20px;
+            border: 4px solid #7b68ee;
+        }
+        video {
+            max-width: 70%;
+            height: auto;
+            display: block;
+            margin: 20px auto;
+            border-radius: 16px;
+            border: 5px solid #5b4bff;
+        }
+        .boton {
+            display: inline-block;
+            margin: 15px 10px;
+            padding: 12px 25px;
+            background: linear-gradient(90deg, #7b2ffd, #2f69ee);
+            color: white;
+            border-radius: 12px;
+            text-decoration: none;
+            font-size: 19px;
+            font-weight: bold;
+        }
+        footer {
+            text-align: center;
+            margin-top: 30px;
+            padding: 15px;
+            background: linear-gradient(90deg, #4169e1, #6a0dad);
+            color: white;
+            font-size: 17px;
+        }
+    </style>
 </head>
-
 <body>
 
 <header>
-
-    <h1>🎥 Nuestros Videos 🎥</h1>
-
+    <h1>💕 Nuestros Videos </h1>
     <nav>
-
         <a href="index.html">Inicio</a>
-
-        <a href="historia.html">Nuestra historia</a>
-
-        <a href="galeria.html">Galería</a>
-
-        <a href="videos.html">Videos</a>
-
+        <a href="historia.html">Historia</a>
+        <a href="galeria.html"> Galería</a>
+        <a href="videos.html"> Videos</a>
     </nav>
-
 </header>
 
+<div class="contenido">
+    <h2>Momentos que se mueven 💜</h2>
+    <p>Aquí guardamos nuestros videos, donde vuelvo a ver tu sonrisa 💙</p>
 
-<main>
+    <!-- 🎬 VIDEO 1 -->
+    <video controls>
+        <source src="css/pa.mp4" type="video/mp4">
+        Tu navegador no puede reproducir este video.
+    </video>
+    <p>💜 Un momento que siempre recordaré cuando soliamos venir de nuestro lugar depues de haber pasadojuntos 
+        toda la tarde
+    </p>
 
-    <section class="video-contenedor">
+    <!-- 🎬 VIDEO 2 -->
+    <video controls>
+        <source src="css/vez.mp4" type="video/mp4">
+        Tu navegador no puede reproducir este video.
+    </video>
+    <p>💙 Nuestra primera noche juntos durmiendo en mi cuarto</p>
 
-        <h2>Un recuerdo para volver a ver una y otra vez ❤️</h2>
+    <video controls>
+        <source src="css/z.mp4" type="video/mp4">
+        Tu navegador no puede reproducir este video.
+    </video>
+    <p>💜 Nuestro primer viaje a Baños
+    </p>
 
-        <video controls>
+    <video controls>
+        <source src="css/beso.mp4" type="video/mp4">
+        Tu navegador no puede reproducir este video.
+    </video>
+    <p>💜 Un bello beso
+    </p>
 
-            <!-- CAMBIA EL NOMBRE POR TU VIDEO -->
+    <video controls>
+        <source src="css/baños.mp4" type="video/mp4">
+        Tu navegador no puede reproducir este video.
+    </video>
+    <p>💜 Ir al Pailon del Dialo contigo mi amor
+    </p>
 
-            <source src="videos/nuestro_video.mp4" type="video/mp4">
-
-            Tu navegador no puede reproducir este video.
-
-        </video>
-
-        <p>
-            Este video guarda uno de nuestros momentos especiales.
-        </p>
-
-    </section>
-
-
-    <section class="mensaje">
-
-        <h2>Para ti ❤️</h2>
-
-        <p>
-            Quiero que cuando veas este video recuerdes
-            todos los momentos bonitos que hemos compartido.
-        </p>
-
-        <p>
-            Y que este sea solamente uno de muchos recuerdos
-            que todavía nos quedan por crear. 💕
-        </p>
-
-    </section>
-
-
-    <a href="index.html" class="boton">
-        Volver al inicio 🏠
-    </a>
-
-</main>
-
+    <br>
+    <a href="galeria.html" class="boton"> Ver fotos</a>
+    <a href="index.html" class="boton"> Volver al inicio</a>
+</div>
 
 <footer>
-
-    <p>Hecho con mucho amor ❤️</p>
-
+    Te amo muchísimo
 </footer>
 
 </body>
-
 </html>
